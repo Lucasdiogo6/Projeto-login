@@ -2,9 +2,9 @@
 
 /*
 Paleta de Cores
-    Roxo Claro #d255ea
+    Roxo Diferenciado #591767
     Amarelo #fdbd3a
-    Azul Escuro #0a1529
+    Azul Escuro 
     Roxo Escuro #3e0d77
 */
 
@@ -38,6 +38,9 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.374);
+
+    transition: width .3s,height .3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem{
     display: block;
