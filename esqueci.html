@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueci a senha</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <style>
+        section#login{
+            height: 350px;
+        }
+        form > a.botao {
+            margin: auto;
+            display: block;
+            font-size: 2em;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            padding: 0px;
+            margin-top: 15px !important;
+        }
+        /*Tablets*/
+        @media screen and (min-width: 768px) and (max-width: 992px){
+        section#login{
+            width: 90vw;
+            height: 200px;
+        }
+            div#formulario > h1{
+            font-size: 2em;
+        }
+        div#formulario > p{
+            font-size: 1.2em;
+            margin: 20px 0px;}}
+        /*Telas Grandes*/
+        @media screen and (min-width: 992px){
+        section#login{
+            width: 900px;
+            height: 300px;
+        }}
+
+    </style>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+            </div>
+            <div id="formulario">
+                <h1>Esqueci a Senha</h1>
+                <p>Lamentamos o ocorrido, entretanto o problema é somente seu, obrigado.</p>
+                <form>
+                <a href="index.html" class="botao">
+                <i class="material-icons">home</i>
+                    </a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
